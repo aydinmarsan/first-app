@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.erp.ui.dashboard.DashboardFragment"
+        android:label="Dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_inventory"
+        android:name="com.example.erp.ui.inventory.InventoryFragment"
+        android:label="Envanter" />
+
+    <fragment
+        android:id="@+id/navigation_sales"
+        android:name="com.example.erp.ui.sales.SalesFragment"
+        android:label="Satışlar" />
+
+    <fragment
+        android:id="@+id/navigation_purchases"
+        android:name="com.example.erp.ui.purchases.PurchasesFragment"
+        android:label="Alımlar" />
+
+    <fragment
+        android:id="@+id/navigation_reports"
+        android:name="com.example.erp.ui.reports.ReportsFragment"
+        android:label="Raporlar" />
+
+</navigation> 
